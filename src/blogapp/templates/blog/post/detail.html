@@ -27,5 +27,13 @@
         {% empty %}
             <p>No hay comentarios</p>
     {% endfor %}
+    <h2>Similar Posts</h2>
+    {% for post in similar_posts %}
+        <p>
+            <a href="{{post.get_absolute_url}}"> {{post.title}} </a>
+        </p>
+        {% empty %}
+        No hay posts similares.
+    {% endfor %}
     {% include "blog/post/includes/comment_form.html" %}
 {% endblock %}

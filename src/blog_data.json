@@ -1,0 +1,350 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Y8jgs2JrcJFeppToWegfBt$UvgKD9JgAd/lv0DATM0OQAhb5RA6Pv2FXJkPouulFLQ=",
+    "last_login": "2025-11-19T16:43:12.751Z",
+    "is_superuser": true,
+    "username": "papo",
+    "first_name": "",
+    "last_name": "",
+    "email": "papomc@spaw.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-10-25T14:32:21.898Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "php",
+    "slug": "php"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "pepemel",
+    "slug": "pepemel"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "gordito",
+    "slug": "gordito"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "goblin",
+    "slug": "goblin"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "goatscript",
+    "slug": "goatscript"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "nigga",
+    "slug": "nigga"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 1,
+  "fields": {
+    "title": "hustlehard",
+    "slug": "hustlehard",
+    "body": "pepemel garri calvo",
+    "publish": "2025-10-21T14:32:59Z",
+    "created": "2025-10-25T14:33:49.620Z",
+    "updated": "2025-11-22T16:49:13.139Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 2,
+  "fields": {
+    "title": "pepe mel",
+    "slug": "pepe",
+    "body": "pepe mel spaw",
+    "publish": "2024-04-10T14:33:56Z",
+    "created": "2025-10-25T14:34:03.018Z",
+    "updated": "2025-11-22T16:48:24.146Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 3,
+  "fields": {
+    "title": "amegosegarro",
+    "slug": "amegosegarro",
+    "body": "ñema amego segarro",
+    "publish": "2025-08-16T14:34:08Z",
+    "created": "2025-10-25T14:34:39.893Z",
+    "updated": "2025-11-22T16:48:57.422Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 4,
+  "fields": {
+    "title": "pepemelote",
+    "slug": "pepemelote",
+    "body": "22sopaw",
+    "publish": "2024-01-24T14:34:44Z",
+    "created": "2025-10-25T14:34:58.135Z",
+    "updated": "2025-11-22T16:48:29.684Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 5,
+  "fields": {
+    "title": "ejemplo",
+    "slug": "ejemplo",
+    "body": "hustle hard 304 ontop",
+    "publish": "2025-09-27T14:35:03Z",
+    "created": "2025-10-25T14:35:18.095Z",
+    "updated": "2025-11-22T16:49:06.773Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 6,
+  "fields": {
+    "title": "testing",
+    "slug": "testing",
+    "body": "dih purqua achapa",
+    "publish": "2024-07-31T14:35:23Z",
+    "created": "2025-10-25T14:35:31.222Z",
+    "updated": "2025-11-22T16:48:44.957Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 7,
+  "fields": {
+    "title": "Extravagancia",
+    "slug": "extravagancia",
+    "body": "ñemote22 grpaw johmoreno",
+    "publish": "2025-07-18T14:35:32Z",
+    "created": "2025-10-25T14:35:46.009Z",
+    "updated": "2025-11-22T16:48:50.797Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.post",
+  "pk": 8,
+  "fields": {
+    "title": "goonlord22",
+    "slug": "goonlord22",
+    "body": "lorem ipsum dolor sit amet",
+    "publish": "2024-12-25T14:35:48Z",
+    "created": "2025-10-25T14:36:12.666Z",
+    "updated": "2025-11-22T16:48:34.880Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blogapp.comment",
+  "pk": 1,
+  "fields": {
+    "post": 8,
+    "name": "ñema",
+    "email": "tab9n@gmail.com",
+    "body": "hola oscar, que sepas que te quiero mucho twin, eres la cabra twin, miguel tu tambien aunque te guste php, pero no pasa nada, todas las enfermedades se curan, os quiero chicos \r\n♥️🤞🏼",
+    "created": "2025-11-22T15:31:36.039Z",
+    "updated": "2025-11-22T15:31:36.039Z",
+    "active": true
+  }
+},
+{
+  "model": "blogapp.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "dih",
+    "email": "dih@dih.com",
+    "body": "pedro safe inchallah muchas grasias x las ayudas wa zbe 9nmok",
+    "created": "2025-11-22T15:50:18.197Z",
+    "updated": "2025-11-22T15:50:18.197Z",
+    "active": true
+  }
+}
+]

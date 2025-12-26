@@ -1,4 +1,5 @@
 {% load static %}
+{% load blog_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +14,20 @@
     <div id="sidebar">
         <h2>Blog</h2>
         <p>Página de blog.</p>
+        <p>Hay {% total_posts %} posts escritos.</p>
+        {% show_latest_posts %}
+        <p>Estos son los 5 posts mas comentados:</p>
+        {% get_most_commented_posts as most_commented_posts %}
+        <ul>
+            {% for post in most_commented_posts %}
+                {% if post.total_comments %}
+                    <li>
+                        <a href="{{post.get_absolute_url}}"> {{post.title}} </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <a href="{% url 'blog:post_feed' %}">Feeds</a>
     </div>
 </body>
 </html>
